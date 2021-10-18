@@ -4,7 +4,7 @@ import MainContainer from '../../components/MainContainer';
 const Employee = () => {
 	const { query } = useRouter();
 	return (
-		<MainContainer>
+		<MainContainer title='Employee'>
 			<h1>Пользователь {query.id}</h1>
 		</MainContainer>
 	);

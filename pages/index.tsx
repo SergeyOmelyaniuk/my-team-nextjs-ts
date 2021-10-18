@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'; //???????????????????????
+import type { NextPage } from 'next';
 import Htag from '../components/atoms/Htag';
 import MainContainer from '../components/MainContainer';
 import { createClient } from 'contentful';
@@ -6,8 +6,8 @@ import ContentfulCard from '../components/organisms/ContentfulCard';
 
 export async function getStaticProps() {
 	const client = createClient({
-		space: process.env.CONTENTFUL_SPACE_ID,
-		accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+		space: process.env.CONTENTFUL_SPACE_ID!,
+		accessToken: process.env.CONTENTFUL_ACCESS_KEY!,
 	});
 	const res = await client.getEntries({ content_type: 'aboutCompany' });
 	return {
