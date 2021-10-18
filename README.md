@@ -5,7 +5,7 @@ Application - **MyTeam**
 **Stack:**
 
 - NextJS + typeScript
-- Contexful
+- Contentful
 - Formik
 - tsoa
 - ExpressJS
