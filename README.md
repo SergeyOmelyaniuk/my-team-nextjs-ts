@@ -1,4 +1,5 @@
 Application - **MyTeam**
+
 - [Ссылка на проект](https://vercel.com/)
 
 **Stack:**
@@ -8,7 +9,6 @@ Application - **MyTeam**
 - tsoa
 - ExpressJS
 - OpenAPI 3.0
-
 
 ### Three-page application
 **Page 1 (About the company)**  
@@ -38,4 +38,4 @@ The information is sent to the local server
 **5. Receive data from the local server to Page 2 (Company employees)**  
 -request to the server to receive, change data  
 **6. Send data to the local server from Page 3 (Add a new employee)**  
--request to the server to add data  
+-request to the server to add data
